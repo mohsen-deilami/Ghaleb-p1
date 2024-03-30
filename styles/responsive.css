@@ -1,0 +1,162 @@
+@media (min-width: 320px){
+  .newsletter::before{
+    top: 22rem;
+    left: -9rem;
+    width: 50rem;
+    height: 50rem;
+  }
+}
+  @media (max-width: 375px) {
+  .header-content__title {
+    font-size: 4rem;
+  }
+  .destination__title{
+    font-size: 2.5rem;
+  }
+  .newsletter__title{
+    max-width: 16rem;
+  }
+  .footer{
+    text-align: center;
+  }
+  .footer-list{
+    margin-left: 0;
+    width: 100%;
+  }
+  .footer__right{
+    
+    justify-content: center;
+  }
+
+}
+
+@media (min-width: 576px) {
+  .newsletter::before{
+     top: 20rem;
+    bottom: 0;
+    left: -8rem;
+    right: 0;
+    width: 70rem;
+    height: 70rem; 
+    
+  }
+}
+
+@media (min-width: 768px) {
+  .nav__btn,
+  .nav-menu {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+  }
+
+  .newsletter{
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+  }
+
+  .newsletter__content{
+    flex-basis: 60%;
+    padding-right: .5rem;
+  }
+  .newsletter__banner{
+    flex-basis: 40%;
+    
+  }
+  .newsletter::before{
+     width: 55rem;
+    height: 55rem;
+    top: -16rem;
+    left: -8rem; 
+    
+  }
+  
+  
+}
+/* ////////////////////////////////////// */
+@media (min-width: 992px) {
+  .nav__links {
+    display: block;
+  }
+  .header-content__caption {
+    max-width: 50rem;
+  }
+  .newsletter__content{
+    padding-right: 2rem;
+  }
+  .newsletter__title{
+    margin-bottom: 0;
+  }
+  .newsletter::before{
+    left: -10rem;
+    top: -24rem;
+    width: 70rem;
+    height: 70rem;
+  }
+  .footer-app--mobile{
+    display: none;
+  }
+  .footer-app{
+    display: block;
+  }
+  .footer__wrapper{
+    display: flex;
+
+  }
+  .footer__left{
+    max-width: 50rem;
+  }
+  .footer__scroll{
+    left: auto;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .header{
+    min-height: 80rem;
+  }
+  .newsletter{
+    justify-content: space-between;
+  }
+  .newsletter__content{
+    flex-basis: auto;
+    width: 60rem;
+  }
+  .newsletter__banner{
+    flex-basis: auto;
+    width: 42rem;
+
+  }
+  .newsletter::before{
+    left: -20rem;
+  }
+  .footer__wrapper{
+    justify-content: space-between;
+  }
+  .footer-list{
+    margin-bottom: 0;
+    margin-left: 2rem;
+  }
+  .newsletter::before{
+    width: 90rem;
+    height: 90rem;
+    left: -20rem;
+    top: -33rem;
+  }
+ 
+}
+@media (min-width: 1400px) {
+  .newsletter{
+    padding: 3rem 6rem;
+  }
+  .newsletter::before{
+    width: 90rem;
+    height: 90rem;
+    left: -10rem;
+    top: -33rem;
+  }
+}
