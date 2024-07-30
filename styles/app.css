@@ -137,12 +137,9 @@ transition: color 100ms ease-in-out;
 }
 
 /* 
-
 //////////////////////////////
         Navigation Menu
-//////////////////////////////
-
-
+/////////////////////////////
 */
 .nav-menu{
 position: fixed;
@@ -154,7 +151,6 @@ width: 25rem;
 padding: 2.5rem;
 transition: all 250ms ease-in-out;
 z-index: 100;
-
 }
 .nav-menu--open{
     left:0;
@@ -169,12 +165,9 @@ z-index: 100;
     text-align: center;
 }
 /* 
-
 //////////////////////////////
         Mobile Menu
 //////////////////////////////
-
-
 */
 .mobile-menu{
 padding-bottom: 3rem;
