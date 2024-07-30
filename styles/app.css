@@ -208,7 +208,6 @@ margin-bottom: 1rem;
 */
 .nav-menu__links{
 display: flex;
-
 }
 .nav-menu__link{
 color: var(--white);
@@ -230,15 +229,13 @@ background-color: var(--dark);
     color: var(--dark);
 }
 
-.nav__links{
-    
+.nav__links{ 
     display: none;
 }
 .nav__link{
     color: var(--white);
     font-family: var(--primary-font);
     margin-left: 1.5rem;
-
 }
 .nav__link--border{
 border: 1px solid var(--white);
@@ -252,12 +249,9 @@ border-radius: 10rem;
 }
 
 /* 
-
 //////////////////////////////
         Hamburgur Menu
 //////////////////////////////
-
-
 */
 .nav__btn{
     background-color: #fff;
@@ -268,7 +262,6 @@ border-radius: 10rem;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .nav__btn-line{
